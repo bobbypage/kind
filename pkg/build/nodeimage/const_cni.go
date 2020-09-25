@@ -86,6 +86,7 @@ spec:
         app: kindnet
         k8s-app: kindnet
     spec:
+      priorityClassName: system-node-critical
       hostNetwork: true
       tolerations:
       - operator: Exists

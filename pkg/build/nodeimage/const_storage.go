@@ -86,6 +86,7 @@ spec:
       labels:
         app: local-path-provisioner
     spec:
+      priorityClassName: system-cluster-critical
       nodeSelector:
         kubernetes.io/os: linux
       tolerations:
